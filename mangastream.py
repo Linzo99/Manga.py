@@ -1,6 +1,5 @@
 import re
 import requests
-import urllib
 
 def download(img_url, filename):
     
