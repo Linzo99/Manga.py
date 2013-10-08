@@ -14,3 +14,5 @@ In all cases, after parsing the image links,the scripts will download the chapte
 
 ###Disclaimer
 Use at your own liability. I suggest that you buy the manga when the volumes are out to support the writers and publishers.
+
+It does not support checking wrong links, and so if you enter a link that does not match the actual link, it might just shut down or break, I do not know as of yet.
