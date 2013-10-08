@@ -23,7 +23,7 @@ if __name__ == "__main__":
     i = 0
     url = raw_input("Enter the link to the manga\n")
 
-    link_pattern = re.compile(r'www.mangareader.net/(.*?)/(\d+)/')
+    link_pattern = re.compile(r'mangareader.net/(.*?)/(\d+)/')
     result = re.match(link_pattern, url)
     mangaName = result.group(1)
     mangaChapter = result.group(2)
