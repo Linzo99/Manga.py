@@ -15,10 +15,10 @@ In all cases, after parsing the image links,the scripts will download the chapte
 ###Supported websites
 The websites supported by Manga.py are listed below
 
--<http://mangafox.me/>
--<http://www.mangapanda.com>
--<http://mangareader.net/>
--<http://mangastream.com/>
+* <http://mangafox.me/>
+* <http://www.mangapanda.com>
+* <http://mangareader.net/>
+* <http://mangastream.com/>
 
 ###Disclaimer
 Use at your own liability. I suggest that you buy the manga when the volumes are out to support the writers and publishers.
