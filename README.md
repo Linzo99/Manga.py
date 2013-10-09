@@ -12,7 +12,13 @@ In windows, run the script with python shell/IDLE.
 
 In all cases, after parsing the image links,the scripts will download the chapter pages in the chapter. Enjoy!
 
+###Supported websites
+The websites supported by Manga.py are listed below
+
+-<http://mangafox.me/>
+-<http://www.mangapanda.com>
+-<http://mangareader.net/>
+-<http://mangastream.com/>
+
 ###Disclaimer
 Use at your own liability. I suggest that you buy the manga when the volumes are out to support the writers and publishers.
-
-It does not support checking wrong links, and so if you enter a link that does not match the actual link, it might just shut down or break, I do not know as of yet.
