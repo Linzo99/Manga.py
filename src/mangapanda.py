@@ -7,6 +7,7 @@ def main( url ):
 
     urllist = []
     namelist = []
+    extlist = []
     i = 0
 
     link_pattern = re.compile(r'mangapanda.com/(.*?)/(\d+)/')
@@ -40,8 +41,11 @@ def main( url ):
 
         for p in xrange(k+1, len(result[0])):
             S += result[0][p]
+            
+        ext = result[0][-3:]
 
         namelist.append(S)
+        extlist.appent(ext)
 
     for i in xrange(0, len(urllist)):
         download(urllist[i], namelist[i])
