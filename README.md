@@ -15,6 +15,8 @@ In all cases, after parsing the image links,the scripts will download the chapte
 ##Requirements
 You need to have python 2.7 installed to run this script. Also, [Requests](http://docs.python-requests.org/en/latest/) module is needed for the script to run, install it with `pip install requests` or `easy_install requests`. See their official link for more info.
 
+You can also install the required packages with requirement.txt file, just use `pip install -r requirements.txt`
+
 ###Supported websites
 The websites currently supported by Manga.py are listed below.
 
