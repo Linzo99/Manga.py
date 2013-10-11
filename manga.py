@@ -25,11 +25,12 @@ def main():
 
 	site_name = site_name[:i]
 
-
 	if site_name == 'mangareader':
 		mangareader.main(url)
 	elif site_name == 'mangafox':
 		mangafox.main(url)
+	elif site_name == 'mangainn':
+		mangainn.main(url)
 	elif site_name == 'mangapanda':
 		mangapanda.main(url)
 	elif site_name == 'mangastream' or site_name == 'readms':
