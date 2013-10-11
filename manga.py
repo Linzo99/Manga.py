@@ -3,6 +3,7 @@ import sys
 sys.path.append(r'src/')
 
 import mangafox
+import mangainn
 import mangapanda
 import mangastream
 import mangareader
