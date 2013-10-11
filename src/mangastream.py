@@ -12,7 +12,7 @@ def main( url  ):
     while url[-1] != '/':
         url = url[:-1]
 
-    print 'Getting pages list'
+    print 'Getting pages list...'
 
     while True:
         i += 1

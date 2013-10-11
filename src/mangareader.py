@@ -13,6 +13,8 @@ def main( url ):
     mangaName = result.group(1)
     mangaChapter = result.group(2)
 
+    print 'Getting pages list...'
+
     while True:
 
         i += 1
