@@ -8,8 +8,8 @@ def main( url ):
     namelist = []
     i = 0
 
-    link_pattern = re.compile(r'mangareader.net/(.*?)/(\d+)/')
-    result = re.match(link_pattern, url)
+    link_pattern = re.compile(r'mangareader.net/(.*?)/(\d+)')
+    result = link_pattern.search(url)
     mangaName = result.group(1)
     mangaChapter = result.group(2)
 
