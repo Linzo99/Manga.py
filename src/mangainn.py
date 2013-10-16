@@ -28,7 +28,7 @@ def main( url ):
         content_pattern = re.compile(r"onclick=\"changeafterzoom\(\)\"src=\"(.*?)\"/>")
         result = re.findall(content_pattern, content)
 
-        if len(result) == 0 || result[0][-3:] == "///":
+        if len(result) == 0 or result[0][-3:] == "///":
             break
 
         k = len(result[0]) - 1
