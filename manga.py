@@ -36,6 +36,8 @@ def main():
 		mangapanda.main(url)
 	elif site_name == 'mangastream' or site_name == 'readms':
 		mangastream.main(url)
+	else:
+		print 'Site not recognised, it\'s not supported yet or the link is not recognised. Please contact the developers.'
 
 if __name__ == '__main__':
 	main()

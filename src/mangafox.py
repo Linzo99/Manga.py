@@ -3,7 +3,7 @@ import requests
 from modules import download, get_page
 
 
-def main( url  ):
+def main( url ):
 
     urllist = []
     namelist = []
