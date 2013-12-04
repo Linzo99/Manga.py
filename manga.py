@@ -1,5 +1,6 @@
-import sys
+#!/usr/bin/env python
 
+import sys
 sys.path.append(r'src/')
 
 import mangafox
