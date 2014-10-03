@@ -20,23 +20,22 @@ def main( url  ):
         content = get_page(url_now)
         content = content.replace("\n", '')
 
-        content_pattern = re.compile(r'<img id="manga-page"  src="(.*?)" />')
+        content_pattern = re.compile(r'<img id="manga-page"(\s+)src="(.*?)\"/>')
         result = re.findall(content_pattern, content)
-
         if len(result) == 0:
             break
 
-        urllist.append(result[0])
+        urllist.append(result[0][1])
 
-        k = len(result[0]) - 1
+        k = len(result[0][1]) - 1
 
-        while result[0][k] != '/':
+        while result[0][1][k] != '/':
             k -= 1
 
         S = ""
 
-        for p in xrange(k+1, len(result[0])):
-            S += result[0][p]
+        for p in xrange(k+1, len(result[0][1])):
+            S += result[0][1][p]
 
         namelist.append(S)
 
